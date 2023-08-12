@@ -4,7 +4,7 @@
 
 Choice parameters for running Jenkins Pipelines that changes based on external factors are handy in cases where the parameters relies on third parties.
 
-In the recent versions of Jenkins security has become more enforced and for good reasons so. This solution works within the default restrictions with the caveat of a required job to be scheduled on the OS. Also, this solution does not rely on the Pipeline to be pre-run, a Seed Job or such, for the parameters to update.
+In the recent versions of Jenkins security has become better enforced and for good reasons so. This solution works within the default restrictions with the caveat of a required job to be scheduled on the OS. Also, this solution does not rely on the Pipeline to be pre-run, a Seed Job or such, for the parameters to update.
 
 ## Strategy
 
