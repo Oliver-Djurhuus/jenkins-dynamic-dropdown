@@ -116,7 +116,7 @@ pipeline {
 }
 ```
 
-Lastly, we need to Approve the script to be run. Do this by executing the Pipeline by going to http://localhost:8080/job/dynamic-dropdown/build click Build .
+Now we need to Approve the script to be run. Do this by executing the Pipeline by going to http://localhost:8080/job/dynamic-dropdown/build click Build .
 
 Expectedly, the Build should fail. Go to http://localhost:8080/manage/scriptApproval/ and approve the script.
 
